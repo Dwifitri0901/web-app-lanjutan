@@ -18,4 +18,9 @@ class DwifitryController extends Controller
     {
         return view("dwifitry-3");
     }
+    public function index()
+    {
+    return view("test-tema"); // view dengan template
+    } 
 }
+

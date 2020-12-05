@@ -49,4 +49,4 @@ use App\Http\Controllers\FitryController;
 Route::get("/fitry/satu", [FitryController::class, "satu"]);
 Route::get("/fitry/dua", [FitryController::class, "dua"]);
 Route::get("/fitry/tiga", [FitryController::class, "tiga"]);
-
+Route::get("/test-tema", [DwifitryController ::class, "index"]); 
